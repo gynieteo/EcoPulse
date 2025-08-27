@@ -39,8 +39,11 @@ h1, h2 {
   padding: 0.8rem 1.2rem;
   background: #27ae60;
   color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
   text-decoration: none;
-  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.3s ease;
 }
 
 footer {
