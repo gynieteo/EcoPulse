@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoEnergi – Optimisation Énergétique</title>
+  <style>
+    /* Reset & police */
+    body, h1, h2, p { margin: 0; padding: 0; font-family: Arial, sans-serif; }
+    body { background: #f9fafb; color: #333; line-height: 1.6; }
+
+    /* Header */
+    header { background: #0d6efd; color: #fff; padding: 20px; text-align: center; }
+    header h1 { font-size: 2.2rem; margin-bottom: 10px; }
+    header p { font-size: 1.2rem; }
+
+    /* Section */
+    section { max-width: 900px; margin: 40px auto; padding: 20px; }
+
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 30px; }
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .card:hover { transform: translateY(-5px); }
+    .card h3 { color: #0d6efd; margin-bottom: 10px; }
+
+    /* CTA */
+    .cta {
+      text-align: center;
+      margin-top: 50px;
+    }
+    .cta a {
+      background: #0d6efd;
+      color: #fff;
+      padding: 12px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.2s;
+    }
+    .cta a:hover { background: #0b5ed7; }
+
+    /* Footer */
+    footer {
+      background: #111;
+      color: #ddd;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>EcoEnergi</h1>
+    <p>Réduisez votre consommation énergétique avec nos solutions connectées</p>
+  </header>
+
+  <section>
+    <h2 style="text-align:center;">Nos solutions</h2>
+    <div class="features">
+      <div class="card">
+        <h3>🌍 Décret Tertiaire</h3>
+        <p>Accompagner les entreprises et collectivités dans la conformité réglementaire grâce à une meilleure maîtrise des consommations.</p>
+      </div>
+      <div class="card">
+        <h3>📊 Suivi intelligent</h3>
+        <p>Tableaux de bord et alertes en temps réel grâce aux capteurs IoT connectés à notre plateforme.</p>
+      </div>
+      <div class="card">
+        <h3>⚡ Optimisation énergétique</h3>
+        <p>Identifiez vos postes de consommation et réduisez vos coûts grâce à l’analyse de données et l’IA.</p>
+      </div>
+    </div>
+
+    <div class="cta">
+      <p>Prêt à optimiser votre bâtiment ?</p>
+      <a href="mailto:contact@ecoenergi.fr">Contactez-nous</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 EcoEnergi – Solutions IoT & Énergie | Inspiré par Ewattch</p>
+  </footer>
+
+</body>
+</html>
